@@ -76,7 +76,7 @@ const Skill = () => {
                   renderSuggestion={renderSuggestion}
                   renderInputComponent={renderInputComponent}
                   inputProps={{
-                    placeholder: "Add skills",
+                    placeholder: "Add skills Suggestions will come click on it",
                     value: tagInputValue,
                     onChange: handleChange,
                     className: "my-2",

@@ -19,7 +19,7 @@ const UserComponent = () => {
 
   return (
     <div className="container mt-5">
-      <h1 className="text-center mb-4">Resume Builder</h1>
+      <h3 className="text-center mb-3">Personal Info</h3>
       <Form onSubmit={handleSubmit}>
         <Form.Group>
           <Form.Label>Name</Form.Label>
