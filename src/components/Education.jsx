@@ -37,6 +37,7 @@ const Education = () => {
 
   return (
     <div className="container mt-5">
+      <h3 className="text-center mb-3">Education</h3>
       <Form onSubmit={handleSubmit}>
         {education.map((field, index) => (
           <div key={index}>
